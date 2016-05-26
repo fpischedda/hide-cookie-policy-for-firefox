@@ -1,16 +1,16 @@
 function hideCookiesPolicy(tab){
 
-    var possible_div_ids = ['cookie-bar', 'eu-cookie-policy'];
-    var ids_length = possible_div_ids.length;
-    var cookie_div;
-    var parent;
-    for(var i=0; i<ids_length; i++){
-	div_id = possible_div_ids[i];
-	cookie_div = document.getElementById('cookie-bar');
-	if(cookie_div != null){
-	    cookie_div.parentNode.removeChild(cookie_div);
-	    break;
-	}
+  var possible_element_ids = ['cookie-bar', 'eu-cookie-policy'];
+  var ids_length = possible_element_ids.length;
+  var cookie_div;
+  var parent;
+  for(var i=0; i<ids_length; i++){
+    element_id = possible_element_ids[i];
+    cookie_element = document.getElementById(element_id);
+    if(cookie_element != null){
+      cookie_element.parentNode.removeChild(cookie_element);
+      break;
     }
+  }
 }
 hideCookiesPolicy();
