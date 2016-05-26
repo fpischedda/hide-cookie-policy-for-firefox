@@ -1,4 +1,4 @@
-#Hide Cooki Policy
+#Hide Cookie Policy
 
 This is a simple stupid Firefox extension that tries to close cookie policy
 banners.
