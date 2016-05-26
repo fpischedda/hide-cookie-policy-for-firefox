@@ -1,0 +1,16 @@
+{
+  "title": "Hide Cookie Bar",
+  "name": "hidecookiebar",
+  "version": "0.0.1",
+  "description": "Hides all cookie policy bars",
+  "main": "index.js",
+  "author": "Francesco Pischedda",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
