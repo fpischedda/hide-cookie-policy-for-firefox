@@ -5,7 +5,7 @@ function remove_element(element){
 
 function hideCookiesPolicy(tab){
 
-  var possible_element_ids = ['cookie-bar', 'eu-cookie-policy', 'cccwr'];
+  var possible_element_ids = ['cookie-bar', 'eu-cookie-policy', 'cccwr', 'cookieChoiceInfo'];
   var ids_length = possible_element_ids.length;
   var cookie_div;
   var parent;
