@@ -36,6 +36,6 @@ function hideCookiePolicyBySelectors(selectors){
 }
 hideCookiePolicyBySelectors([
 '#cookie-bar', '#eu-cookie-policy', '#cccwr', '#cookieChoiceInfo',
-'#iubenda-cs-banner', '#eu-cookie',
+'#iubenda-cs-banner', '#eu-cookie', '#banner_cookie',
 '[data-testid="cookie-policy-banner"]',
 '.pea_cook_wrapper', '.cc-cookies', 'eu-cookie-notice']);
