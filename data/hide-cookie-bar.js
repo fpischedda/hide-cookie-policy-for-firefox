@@ -39,4 +39,5 @@ hideCookiePolicyBySelectors([
 '#iubenda-cs-banner', '#eu-cookie', '#banner_cookie',
 '#iubenda-cs-banner',
 '[data-testid="cookie-policy-banner"]',
-'.pea_cook_wrapper', '.cc-cookies', 'eu-cookie-notice']);
+'.pea_cook_wrapper', '.cc-cookies', 'eu-cookie-notice',
+'.b-cookie-hint']);
