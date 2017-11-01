@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Cookie Boxes",
+    "version": "0.1.0",
+    "description": "Hides all cookie policy boxes",
+    "author": "Francesco Pischedda",
+
+    "icons": {
+        "48": "icons/48.png",
+        "96": "icons/96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["js/hide-cookie-bar.js"]
+        }
+    ]
+}
