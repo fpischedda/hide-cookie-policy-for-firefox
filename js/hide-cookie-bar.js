@@ -35,7 +35,7 @@ function hideCookiePolicyBySelectors(selectors){
   }
 }
 hideCookiePolicyBySelectors([
-    '#cookie-bar', '#eu-cookie-policy', '#cccwr', '#cookieChoiceInfo',
+    '#cookie-topbar', '#cookie-bar', '#eu-cookie-policy', '#cccwr', '#cookieChoiceInfo',
     '#iubenda-cs-banner', '#eu-cookie', '#banner_cookie',
     '#iubenda-cs-banner',
     '#CybotCookiebotDialog',
