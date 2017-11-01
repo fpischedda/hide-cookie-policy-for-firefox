@@ -6,19 +6,13 @@
     "author": "Francesco Pischedda",
 
     "icons": {
-        "48": "icons/48.png"
+        "48": "icons/48.png",
         "96": "icons/96.png"
     },
     "content_scripts": [
         {
-            "matches": ["*"],
+            "matches": ["*://*/*"],
             "js": ["js/hide-cookie-bar.js"]
         }
-    ],
-    "license": "MIT",
-    "keywords": [
-        "cookie",
-        "banner",
-        "removal"
     ]
 }
