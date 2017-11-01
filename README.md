@@ -17,9 +17,9 @@ Build the extension
 
 Building the extension is quite easy, the only requirement is to have npm
 installed in the sistem; the procedure is:
-* install jpm with npm install -g jpm
+* install web-ext with: npm install -g web-ext
 * cd in to the extension's directory
-* jpm xpi
+* run: web-ext build
 
-After these simple steps a new unsigned xpi file will be generated in the
-extension's directory
+After these simple steps a new unsigned zip file will be generated in the
+extension's web-ext-artifacts sub directory
